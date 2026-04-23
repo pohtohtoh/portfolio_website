@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Kinetic Presence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor cursor--dot" aria-hidden="true"></div>
+    <div class="cursor cursor--ring" aria-hidden="true"></div>
+
+    <div class="background-glow" aria-hidden="true"></div>
+
+    <header class="site-header glass-panel">
+      <a class="logo magnetic" href="#home">YOUR NAME</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a class="nav-link magnetic" href="#home">Home</a></li>
+          <li><a class="nav-link magnetic" href="#featured-projects">Featured Projects</a></li>
+          <li><a class="nav-link magnetic" href="#industry-projects">Industry Projects</a></li>
+          <li><a class="nav-link magnetic" href="#about-me">About Me</a></li>
+          <li><a class="nav-link magnetic" href="#skills">Skills</a></li>
+          <li><a class="nav-link magnetic" href="#view-resume">View Resume</a></li>
+          <li><a class="nav-link magnetic" href="#get-in-touch">Get In Touch</a></li>
+          <li><a class="nav-link magnetic" href="#free-time">Free Time</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section landing">
+        <div class="landing-copy">
+          <p class="eyebrow">Home / Landing Page</p>
+          <h1 class="morph-title">
+            <span class="morph-letter" data-id="C">C</span>
+            <span class="morph-letter" data-id="R">R</span>
+            <span class="morph-letter" data-id="E">E</span>
+            <span class="morph-letter" data-id="A">A</span>
+            <span class="morph-letter" data-id="T">T</span>
+            <span class="morph-letter" data-id="E">E</span>
+            <span class="morph-letter gap"></span>
+            <span class="morph-letter" data-id="I">I</span>
+            <span class="morph-letter" data-id="M">M</span>
+            <span class="morph-letter" data-id="P">P</span>
+            <span class="morph-letter" data-id="A">A</span>
+            <span class="morph-letter" data-id="C">C</span>
+            <span class="morph-letter" data-id="T">T</span>
+          </h1>
+          <p class="lead">
+            I design digital experiences that feel like moments, not pages — engineered to perform at 60fps and remembered long after the tab closes.
+          </p>
+          <a class="primary-btn magnetic" href="#featured-projects">Enter the Work</a>
+        </div>
+        <div class="stage-wrap">
+          <div class="scene" id="scene">
+            <article class="floating-card card-a">
+              <h3>Motion Systems</h3>
+              <p>Micro-interactions calibrated at 200ms with spring-like release curves.</p>
+            </article>
+            <article class="floating-card card-b">
+              <h3>UX Physics</h3>
+              <p>Cursor-reactive planes that bend perspective around intent.</p>
+            </article>
+            <article class="floating-card card-c">
+              <h3>Brand Presence</h3>
+              <p>Interfaces that look confident without shouting.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured-projects" class="section">
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Five projects that prove craft and range.</h2>
+        <div class="project-grid">
+          <article class="project glass-panel interactive">
+            <h3>01 — Pulse Commerce</h3>
+            <p>A cinematic e-commerce redesign that lifted conversion velocity with intelligent motion pacing.</p>
+          </article>
+          <article class="project glass-panel interactive">
+            <h3>02 — Nebula Analytics</h3>
+            <p>Dashboard experience with spatial navigation for power users needing rapid multi-filter analysis.</p>
+          </article>
+          <article class="project glass-panel interactive">
+            <h3>03 — Aurora Health</h3>
+            <p>Patient portal with trust-first typography and calm interaction models for high-stress contexts.</p>
+          </article>
+          <article class="project glass-panel interactive">
+            <h3>04 — Drift Studio</h3>
+            <p>Creative portfolio engine with motion-led storytelling and modular CMS components.</p>
+          </article>
+          <article class="project glass-panel interactive">
+            <h3>05 — Signal Hiring</h3>
+            <p>Recruitment platform with high-accessibility workflows and measurable application-flow gains.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="industry-projects" class="section">
+        <p class="eyebrow">Industry Projects</p>
+        <h2>Built in real-world constraints, shipped at scale.</h2>
+        <div class="project-grid two-up">
+          <article class="project glass-panel interactive">
+            <h3>Enterprise Platform Revamp</h3>
+            <p>Led frontend architecture for a B2B suite serving 30k+ daily active users.</p>
+          </article>
+          <article class="project glass-panel interactive">
+            <h3>Telecom Self-Service Redesign</h3>
+            <p>Reduced friction in support flows through predictive UI states and composable components.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about-me" class="section">
+        <p class="eyebrow">About Me</p>
+        <h2>I blend story, behavior, and systems thinking.</h2>
+        <p>
+          I obsess over details users can feel before they can name. My workflow starts with emotional mapping,
+          then converges into production-grade architecture with performance budgets, accessibility checks,
+          and scalable patterns.
+        </p>
+      </section>
+
+      <section id="skills" class="section">
+        <p class="eyebrow">Skills</p>
+        <h2>Capabilities</h2>
+        <ul class="skills-list">
+          <li class="interactive">Frontend Architecture</li>
+          <li class="interactive">React / Next.js / TypeScript</li>
+          <li class="interactive">WebGL-ready motion thinking</li>
+          <li class="interactive">Design Systems</li>
+          <li class="interactive">Accessibility (WCAG 2.2)</li>
+          <li class="interactive">Performance Optimization</li>
+        </ul>
+      </section>
+
+      <section id="view-resume" class="section">
+        <p class="eyebrow">View Resume</p>
+        <h2>Prefer the concise version?</h2>
+        <a class="primary-btn magnetic" href="#" aria-label="View resume">Download Resume (PDF)</a>
+      </section>
+
+      <section id="get-in-touch" class="section">
+        <p class="eyebrow">Get In Touch</p>
+        <h2>Let's make something impossible look inevitable.</h2>
+        <p>Email: hello@yourname.dev · LinkedIn: /in/yourname · GitHub: /yourname</p>
+      </section>
+
+      <section id="free-time" class="section">
+        <p class="eyebrow">What I Do In My Free Time</p>
+        <h2>I prototype tiny experiments that shouldn't work — then make them work.</h2>
+        <p>
+          I build miniature interaction labs, compose ambient audio loops, and study title sequences
+          to sharpen rhythm, contrast, and timing in interface storytelling.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
